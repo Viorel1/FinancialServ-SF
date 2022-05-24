@@ -46,8 +46,31 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Test_Screen_0</targetReference>
+        </connector>
         <fields>
             <name>chckbox_group</name>
+            <choiceReferences>Choice_One</choiceReferences>
+            <choiceReferences>Choice_Two</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>chckbox_group</fieldText>
+            <fieldType>MultiSelectCheckboxes</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Test_Screen_0</name>
+        <label>Test Screen</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>chckbox_group_0</name>
             <choiceReferences>Choice_One</choiceReferences>
             <choiceReferences>Choice_Two</choiceReferences>
             <dataType>String</dataType>
